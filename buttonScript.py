@@ -8,6 +8,7 @@ joyX = Button(22)
 joyY = Button(23)
 mode = 0
 
+#this state prints words
 def switchState3():
     while mode is 3:
         print("you are in switch state three")
@@ -20,6 +21,7 @@ def switchState3():
             print("joy y says cat")
         sleep(1)
 
+#this state prints letters
 def switchState2():
     while mode is 2:
         print("you are in switch state two")
@@ -32,6 +34,7 @@ def switchState2():
             print("joy y says c")
         sleep(1)
 
+#this state prints numbers
 def switchState1():
     while mode is 1:
         print("you are in switch state one")
